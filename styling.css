@@ -1,0 +1,109 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, red, blue);
+    background: -webkit-radial-gradient(circle, #721, #621);   
+    background: -o-radial-gradient(circle, #fff, #ccc);   
+    background: -moz-radial-gradient(circle, #fff, #ccc);
+}
+
+#container {
+    height: 340px;
+    width: 500px;
+    background-color: #003;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 50px 10px;
+    position: relative;
+}
+
+
+
+#tryAgain {
+    opacity: 0;
+    position: absolute;
+    background-color: lightcoral;
+    padding: 10px;
+    left: 245px;
+    
+}
+#score {
+    position: absolute;
+    background-color: #f1FF92;
+    color: 8888E5F;
+    padding: 10px;
+    border-radius: 10px;
+    left: 450px;
+}
+
+
+#problem{
+    height: 80px;
+    font-size: 80px;
+    position: absolute;
+    background-color: #99ffaa;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    top: 80px;
+    left: 60px;
+    border-radius: 5px;
+}
+
+#prompt{
+    position: absolute;
+    background-color: #ad33ef;
+    width: 80%;
+    margin: 0 auto;
+    top: 170px;
+    left: 60px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+
+#buttons{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    left: 60px;
+    top: 205px;
+}
+
+#button1, #button2, #button3, #button4{
+    height: inherit;
+    width: 80px;
+    float: left;
+    border-radius: 5px;
+    background-color: #f1BB92
+}
+
+#button2 {
+    position: relative;
+    left: 42px;
+}
+
+#button3 {
+    position: relative;
+    left: 82px;
+}
+
+#button4 {
+    position: relative;
+    left: 112px;
+}
+
+#start{
+    position: absolute;
+    top: 300px;
+    left: 39%;
+    background-color: #99ffaa;
+    padding 20px;
+    font-size: 20px
+}
+
+
